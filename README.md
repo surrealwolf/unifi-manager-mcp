@@ -107,6 +107,16 @@ curl -X POST http://localhost:8000/mcp \
 | `MCP_HTTP_ADDR` | HTTP server address | :8000 |
 | `LOG_LEVEL` | Logging level | info |
 
+## Skills & Capabilities
+
+This MCP implements the following domain-specific skills:
+
+- **Site Management** - Manage and monitor UniFi sites across your account
+- **Infrastructure Management** - Manage hosts and devices across all sites
+- **Deployment Management** - Track and manage deployments across infrastructure
+
+See [.github/skills](.github/skills) for detailed skill documentation.
+
 ## API Reference
 
 For detailed UniFi Site Manager API documentation, see:
